@@ -15,7 +15,7 @@ import pyrogram
 
 
 from tobrot import (
-    AUTH_CHANNEL
+    AUTH_CHANNEL=“-1001318029430”
 )
 
 
