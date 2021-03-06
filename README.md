@@ -7,7 +7,23 @@ A Telegram Torrent (and youtube-dl) Leecher based on [Pyrogram](https://github.c
 ### The Easy Way
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+### an example config.py 👇
 
+```py
+
+from tobrot.sample_config import Config
+
+class Config(Config):
+
+  TG_BOT_TOKEN = ""
+
+  APP_ID = 6
+
+  API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+
+  AUTH_CHANNEL = -1001234567890
+
+```
 ### The Legacy Way
 Simply clone the repository and run the main file:
 
